@@ -1,0 +1,96 @@
+!SESSION 2016-08-30 19:26:20.475 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/everis/develop/workspaces/TallerJava -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-08-30 19:26:25.856
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1078]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.ibm.ws.ast.st.common.core 4 0 2016-08-30 20:06:08.910
+!MESSAGE JVM debug port 7777 is in use.
+
+!ENTRY com.ibm.ws.ast.st.common.core 4 0 2016-08-30 20:06:52.641
+!MESSAGE JVM debug port 7777 is in use.
+!SESSION 2016-08-31 11:15:45.486 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 2 0 2016-08-31 11:16:19.673
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@d410efb0; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2016-08-31 11:16:19.740
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.ui.trace did not complete in 30000 ms 
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-08-31 11:16:19.831
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1078]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-08-31 11:16:22.944
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-08-31 19:22:24.234 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-08-31 19:22:47.572
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1078]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-08-31 19:22:49.473
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
